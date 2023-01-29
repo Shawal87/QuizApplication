@@ -128,7 +128,7 @@ public class QuizTest extends JFrame implements ActionListener {
             radioButtons[3].setText("null");
         }
 
-        label.setBounds(30,40,450,200);
+        label.setBounds(30,40,450,20);
         for (int i =0 , j =0 ;  i<=90; i+=30, j++){
             radioButtons[j].setBounds(50,80+i,200,20);
         }
